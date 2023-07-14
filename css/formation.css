@@ -1,0 +1,49 @@
+@import url(root.css);
+
+hr {
+  width: 50%;
+  background-color: var(--c-white);
+}
+
+.main-formation {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.main-formation-cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.main-formation-cards--card {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--c-marron);
+  max-width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.main-formation--card--iconResponsive {
+  max-width: 160px;
+  min-width: 60px;
+}
+.main-formation--t {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+  color: var(--c-black);
+}
+
+.main-formation-cards-card-p {
+  font-size: 20px;
+  margin: 15px;
+  text-align: center;
+  color: var(--c-white);
+}

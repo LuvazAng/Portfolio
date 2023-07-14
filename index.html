@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/about-me.css">
+    <link rel="stylesheet" href="css/formation.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/pjt-cto.css">
+    <!--  SEPARADOR PARA QUE FUNCIONE EL RESPONSIVE XD -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-logo">Portfolio</div>
+        <div class="header-hamburger">
+            <div class="header-hamburguer--line"></div>
+            <div class="header-hamburguer--line"></div>
+            <div class="header-hamburguer--line"></div>
+        </div>
+        <nav class="header-nav-bar">   
+            <ul>
+                <li>
+                    <a href="#home">Incio</a>
+                </li>
+                <li>
+                    <a href="#aboutme">Sobre mi</a>
+                </li>
+                <li>
+                    <a href="#skills">Habilidades</a>
+                </li>
+                <li>
+                    <a href="#formation">Formación</a>
+                </li>
+                <li>
+                    <a class="header-nav-bar--btn" href="#project">Proyectos</a>
+                </li>
+                <li>
+                    <a href="#contact">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--    -->
+        <section class="main-descrip" id="home">
+            <div class="main-descrip--principal" id="aboutme">
+                <p>Welcome!</p>
+                <p>I'm Luis</p>
+                <p>Developer Jr</p>
+                <a href="#aboutme"><button class="main-descrip--principal--btnConoceme">¡Conoceme!</button></a>
+            </div>
+            <img class="main-descrip-pp" src="img/pictureProfile.jpg" alt="pictureProfile">
+        </section>
+        <!--    -->
+        <section class="main-aboutme-skills">
+            <!-- SECCIÓN SOBRE MI Y MIS HABILIDADES  -->
+            <div class="main-aboutme-skills--abm" id="aboutme">
+                <p class="main-aboutme-skills--abm-t">Sobre mi</p>
+                <p class="main-aboutme-skills--abm-p">
+                    Me llamo Luis Angel Vazquez y soy apasionado a desarrollar sistemas informaticos y de software.
+                </p>
+                <p class="main-aboutme-skills--abm-p">
+                    Actualmente estoy formandome como ingeniero en sistemas computacionales con especialidad en
+                    <b>“Desarrollo web empresial”</b> en la Universidad Tecnologíca Nacional de México campus Zacatepec.
+                    Esto me ha permitido formarme como <b>desarrollador Back-End</b> teniendo conocimientos del
+                    lenguaje de programación <b>Java orientada a objetos</b> y <b>Java con interfaces gràficas</b>.
+                </p>
+                <p class="main-aboutme-skills--abm-p">
+                    Con ganas de seguir aprendiendo nuevas tecnologias, participo en el programa <b>Oracle Next
+                        Education</b> por Oracle. En este programa tecnologíco he aprendido <b>Javascript</b>,
+                    <b>CSS</b>, y <b>HTML5</b>, así como <b>Web responsive</b>.
+                </p>
+            </div>
+            <div class="main-aboutme-skills--sks" id="skills">
+                <p class="main-aboutme-skills--sks-t" >Habilidades</p>
+                <p class="main-aboutme-skills--sks-p">Front-End</p>
+                <div class="icons">
+                    <img src="img/HTML5-icon.svg" alt="html5-icon">
+                    <img src="img/CSS-icon.svg" alt="css-icon">
+                    <img src="img/JS-icon.svg" alt="js-icon">
+                </div>
+                <p class="main-aboutme-skills--sks-p">Back-End</p>
+                <div class="icons">
+                    <img src="img/JAVA-icon.svg" alt="java-icon">
+                    <img src="img/PHP-icon.svg" alt="php-icon">
+                </div>
+                <p class="main-aboutme-skills--sks-p">Operative Systems</p>
+                <div class="icons">
+                    <img src="img/WINDOWS-icon.svg" alt="windows-icon">
+                    <img src="img/LINUX-icon.svg" alt="linux-icon">
+                </div>
+                <p class="main-aboutme-skills--sks-p">Desing</p>
+                <div class="icons">
+                    <img src="img/PHOTOSHOP-icon.svg" alt="photoshop-icon">
+                    <img src="img/ILLUSTRATOR-icon.svg" alt="illustrator-icon">
+                    <img src="img/FIGMA-icon.svg" alt="figma-icon">
+                </div>
+            </div>
+        </section>
+        <!--    -->
+        <section class="main-formation" id="formation">
+            <p class="main-formation--t" >Formación</p>
+            <div class="main-formation-cards">
+                <div class="main-formation-cards--card">
+                    <img src="img/logo-itz-white.svg" alt="logo-itz" class="main-formation--card--iconResponsive">
+                    <p class="main-formation-cards-card-p">Tecnologico Nacional de México campus Zacatepec</p>
+                    <hr>
+                    <p class="main-formation-cards-card-p">Desarrollo web empresarial</p>
+                </div>
+                <div class="main-formation-cards--card">
+                    <img src="img/oracle-icon.svg" alt="logo-itz" class="main-formation--card--iconResponsive">
+                    <p class="main-formation-cards-card-p">Oracle Next Education</p>
+                    <hr>
+                    <p class="main-formation-cards-card-p">Logica de programación, HTML5, CSS, JavaScript, Web
+                        Responsive</p>
+                </div>
+            </div>
+        </section>
+        <!--    -->
+        <section class="main-pj-cto">
+            <div class="main-pj-cto-project" id="project">
+                <p class="main-pj-cto-project-t">PROYECTO</p>
+                <div class="main-pj-cto-project--card">
+                    <p class="main-pj-cto-project--card-p">Encriptador</p>
+                    <img class="main-pj-cto-project--card-img" src="img/img-encript.png" alt="img-encrip">
+                    <div class="main-pj-cto-project--card-btn">
+                        <a href="https://luisvazquezcarrillo.github.io/EncriptadorL/"><button class="main-pj-cto-project--card-btn-push"><img class="iconC" src="img/pc-icon.svg" alt="pc-icon">Demo</button></a>
+                        <a href="https://github.com/LuisVazquezCarrillo/EncriptadorL/"> <button class="main-pj-cto-project--card-btn-push"><img class="iconC" src="img/github-icon.svg" alt="github-icon">Repositorio</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="main-pj-cto-contact" id="contact">
+                <p class="main-pj-cto-contact-t">CONTACTO</p>
+                <a href="https://github.com/LuisVazquezCarrillo"><img src="img/github-icon-c.svg" alt="img-github"></a>
+                <p class="main-pj-cto-contact-p">github.com/LuisVazquezCarrillo</p>
+                <a href="https://www.linkedin.com/in/luis-angel-vazquez-carrillo-a89857181/"><img src="img/linkedin-icon-c.svg" alt="img-linkedin"></a>
+                <p class="main-pj-cto-contact-p">linkedin.com/in/luis-angel-vazquez-carrillo-a89857181/</p>
+                <a href="luisvazquez1757@gmail.com"><img src="img/email-icon-c.svg" alt="img-email"></a>
+                <p class="main-pj-cto-contact-p">github.com/LuisVazquezCarrillo</p> 
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-p">Desarrollado por Luis Angel Vazquez Carrillo,</p>
+        <p class="footer-p">Noviembre, 2022</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

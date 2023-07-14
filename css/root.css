@@ -1,0 +1,39 @@
+:root {
+    --c-blue: #0d6efd;
+    --c-purple: #6610f2;
+    --c-pink: #d63384;
+    --c-red: #dc3545;
+    --c-orange: #fd7e14;
+    --c-int-orange: #fa4f00;
+    --c-coral: #fb834b;
+    --c-yellow: #ffc107;
+    --c-green: #198754;
+    --c-teal: #20c997;
+    --c-cyan: #0dcaf0;
+    --c-black: rgb(26, 15, 15);
+    --c-white: #fff;
+    --c-gray: #6c757d;
+    --c-default: #fffae4;
+    --c-default-hover: #afaeae;
+    --c-marron: #7a2700;
+    --c-marron-h: #571b00;
+    --c-gray-dark: #343a40;
+    --c-gray-100: #f8f9fa;
+    --c-gray-200: #e9ecef;
+    --c-gray-300: #dee2e6;
+    --c-gray-400: #ced4da;
+    --c-gray-500: #adb5bd;
+    --c-gray-600: #6c757d;
+    --c-gray-700: #495057;
+    --c-gray-800: #343a40;
+    --c-gray-900: #212529;
+    font-family: "Kanit", sans-serif;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  .main-descrip{
+    padding-top: 5rem;
+  }

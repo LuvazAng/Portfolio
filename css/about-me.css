@@ -1,0 +1,60 @@
+@import url(root.css);
+
+.main-aboutme-skills {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 20px;
+  padding: 0 3rem 0 3rem;
+}
+
+.main-aboutme-skills--abm {
+  display: flex;
+  flex-flow: column wrap;
+  width: 50%;
+  margin: 3rem 0 3rem 0;
+  
+}
+
+.main-aboutme-skills--abm-t {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.main-aboutme-skills--abm-p {
+  padding: 15px;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 25px;
+}
+
+.main-aboutme-skills--sks {
+  display: flex;
+  flex-flow: column wrap;
+  background-color: var(--c-marron);
+  width: 50%;
+  border-radius: 25px;
+  margin: 3rem 0 3rem 0;
+}
+
+.main-aboutme-skills--sks-t {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+  color: var(--c-white);
+}
+
+.main-aboutme-skills--sks-p {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: var(--c-white);
+}
+
+.icons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding: 8px;
+}

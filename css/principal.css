@@ -1,0 +1,56 @@
+@import url(root.css);
+/* INICIO ESTILOS PARA ETIQUETAS */
+
+/* INICIO ESTILOS PARA ETIQUETAS */
+
+/* INICIO ESTILOS PARA CLASES*/
+.main-descrip--principal {
+  font-size: 50px;
+  margin: 30px 0 0 0;
+  max-width: 400px;
+  min-width: 60px;
+}
+
+.main-descrip {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  background-color: var(--c-marron);
+  text-align: center;
+  font-size: 30px;
+  color: var(--c-white);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.main-descrip-pp {
+  max-width: 300px;
+  min-width: 60px;
+  max-height: 300px;
+  min-height: 60px;
+  border-radius: 400px;
+  padding: 20px;
+}
+
+.main-descrip--principal--btnConoceme {
+  width: 200px;
+  height: 50px;
+  margin-top: 25px;
+  border-radius: 15px;
+  border-style: none;
+  background-color: var(--c-orange);
+  cursor: pointer;
+  font-size: 20px;
+  color: var(--c-white);
+}
+
+/* FIN ESTILOS PARA CLASES*/
+
+/* INICIO DE HOVER,AFTER,BEFORE */
+.main-descrip--principal--btnConoceme:hover {
+  background-color: var(--c-int-orange);
+}
+
+/* INICIO DE HOVER,AFTER,BEFORE */

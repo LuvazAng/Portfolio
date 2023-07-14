@@ -1,0 +1,127 @@
+@import url(root.css);
+
+/* INICIO ESTILOS PARA ETIQUETAS*/
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--c-default);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  height: 80px;
+  background-color: var(--c-default);
+}
+
+/* FIN ESTILOS PARA ETIQUETAS*/
+/* ---------------------------- */
+/* INICIO DE ESTILOS PARA CLASES */
+
+.header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 80px;
+}
+
+.header-logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--c-gray-900);
+}
+
+.header-hamburger {
+  display: none;
+}
+
+.header-nav-bar ul {
+  display: flex;
+}
+
+.header-nav-bar ul li a {
+  display: block;
+  color: var(--c-gray-900);
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.2s;
+  margin: 0px 5px;
+  text-decoration: none;
+}
+
+.header-nav-bar ul li a:hover {
+  background-color: var(--c-default-hover);
+}
+
+.header-nav-bar ul li a.active {
+  font-weight: bold;
+  color: var(--c-white);
+  background-color: var(--c-default-hover);
+}
+
+
+
+/* FIN DE ESTILOS PARA CLASES */
+
+@media only screen and (max-width: 1320px) {
+  header {
+    padding: 0 50px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  header {
+    padding: 0 30px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .header-hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .header-hamburger .header-hamburguer--line {
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    margin: 6px 0;
+  }
+
+  .header-nav-bar {
+    height: 0px; /*280*/
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+  .header-nav-bar.active {
+    height: 335px;
+    background-color: var(--c-default);
+  }
+
+  .header-nav-bar ul {
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+  .header-nav-bar.active ul {
+    opacity: 1;
+  }
+
+  .header-nav-bar ul li a {
+    margin-bottom: 12px;
+  }
+}

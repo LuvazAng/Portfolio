@@ -1,0 +1,107 @@
+@import url(root.css);
+
+.main-pj-cto{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 20px;
+    padding: 0 3rem 0 3rem;
+}
+
+.main-pj-cto-project{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    width: 50%;
+    border-radius: 25px;
+    background-color: var(--c-marron);
+    margin: 3rem 0 3rem 0;
+}
+
+.main-pj-cto-project-t{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0;
+    color: var(--c-white);
+}
+
+.main-pj-cto-project--card{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    max-width: 1000px;
+    min-width: 200px;
+    max-height: 325px;
+    min-height: 300px;
+    padding: 10px;
+    background-color: var(--c-default);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.main-pj-cto-project--card-img{
+    max-width: 230px;
+    min-width: 110px;
+    max-height: 180px;
+    min-height: 86px;
+    box-shadow: -2px -1px 7px var(--c-marron);
+    margin-bottom: 10px;
+}
+.main-pj-cto-project--card-p{
+    font-size: 20px;
+    color: var(--c-black);
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 30px 0;
+}
+
+.main-pj-cto-project--card-btn{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+.main-pj-cto-project--card-btn-push{
+    display: flex;
+    color: var(--c-white);
+    flex-flow: row wrap;
+    align-items: center;
+    background-color: var(--c-marron);
+    border-radius: 10px;
+    margin: 2px;
+    border-style: none;
+    cursor: pointer;
+    height: 40px;
+}
+
+.main-pj-cto-project--card-btn-push:hover{
+    background-color: var(--c-marron-h);
+}
+
+.iconC{
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.main-pj-cto-contact{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 3rem 0 3rem 0;
+}
+
+.main-pj-cto-contact-t{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.main-pj-cto-contact-p{
+    font-size: 25px;
+    text-align: center;
+    margin: 15px 0;
+}
